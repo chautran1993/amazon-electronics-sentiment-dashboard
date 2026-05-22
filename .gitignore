@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/
+
+# OS/editor noise
+desktop.ini
+.DS_Store
+
+# Optional large model weights
+models/bert/model.safetensors
+models/bert/pytorch_model.bin
+models/bert/*.pt
+models/bert/*.ckpt
+
+# Runtime logs
+streamlit_app.log
+streamlit_app.err.log
